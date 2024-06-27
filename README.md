@@ -1,5 +1,5 @@
 
-```markdown
+```
 
 # Banknote Authentication Streamlit App
 
@@ -53,7 +53,7 @@ pip install streamlit pandas scikit-learn joblib ucimlrepo
 
 1\. Clone the repository:
 
-   ```bash
+   ```
 
    git clone https://github.com/your-username/banknote-authentication-streamlit.git
 
@@ -65,7 +65,7 @@ pip install streamlit pandas scikit-learn joblib ucimlrepo
 
 3\. Run the Streamlit application:
 
-   ```bash
+   ```
 
    streamlit run app.py
 
@@ -93,22 +93,3 @@ Contributions are welcome! Please fork this repository and submit pull requests.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-```
-
-### Steps to Add the README to Your GitHub Repository
-
-1\. Create a `README.md` file in the root directory of your project.
-
-2\. Copy and paste the above content into the `README.md` file.
-
-3\. Add, commit, and push the `README.md` file to your GitHub repository:
-
-```bash
-
-git add README.md
-
-git commit -m "Add README file"
-
-git push origin main  # or `master` if you use the master branch
-
-```
