@@ -1,27 +1,25 @@
 
-```
-
 # Banknote Authentication Streamlit App
 
 This is a simple Streamlit application for banknote authentication using a logistic regression model. The application takes user inputs for variance, skewness, curtosis, and entropy to predict whether a banknote is genuine or counterfeit.
 
 ## Table of Contents
 
-- [Overview](#overview)
+- Overview
 
-- [Installation](#installation)
+- Installation
 
-- [Usage](#usage)
+- Usage
 
-- [Dataset](#dataset)
+- Dataset
 
-- [Model](#model)
+- Model
 
-- [Streamlit App](#streamlit-app)
+- Streamlit App
 
-- [Contributing](#contributing)
+- Contributing
 
-- [License](#license)
+- License
 
 ## Overview
 
@@ -41,49 +39,37 @@ To run this project locally, you need to have Python and the following packages 
 
 - ucimlrepo
 
-You can install the required packages using:
+You can install the required packages using the command:
 
-```bash
-
-pip install streamlit pandas scikit-learn joblib ucimlrepo
-
-```
+`pip install streamlit pandas scikit-learn joblib ucimlrepo`
 
 ## Usage
 
 1\. Clone the repository:
 
-   ```
+   `git clone https://github.com/your-username/banknote-authentication-streamlit.git`
 
-   git clone https://github.com/your-username/banknote-authentication-streamlit.git
-
-   cd banknote-authentication-streamlit
-
-   ```
+   `cd banknote-authentication-streamlit`
 
 2\. Ensure you have the saved model file (`banknote_authentication_model.pkl`) in the project directory.
 
 3\. Run the Streamlit application:
 
-   ```
-
-   streamlit run app.py
-
-   ```
+   `streamlit run app.py`
 
 4\. Open your web browser and go to `http://localhost:8501` to interact with the app.
 
 ## Dataset
 
-The dataset used in this project is the [UCI Banknote Authentication Dataset](https://archive.ics.uci.edu/ml/datasets/banknote+authentication). It contains features like variance, skewness, curtosis, and entropy of wavelet-transformed images of banknotes.
+The dataset used in this project is the UCI Banknote Authentication Dataset. It contains features like variance, skewness, curtosis, and entropy of wavelet-transformed images of banknotes.
 
 ## Model
 
-The model is a logistic regression classifier trained using the `scikit-learn` library. The training process includes splitting the data into training and testing sets, fitting the model, and saving it using `joblib`.
+The model is a logistic regression classifier trained using the scikit-learn library. The training process includes splitting the data into training and testing sets, fitting the model, and saving it using joblib.
 
 ## Streamlit App
 
-The Streamlit application allows users to input the features of a banknote and get a prediction on whether it is genuine or counterfeit. The app also provides some basic data visualization, such as correlation heatmap and pairplot, to help understand the dataset better.
+The Streamlit application allows users to input the features of a banknote and get a prediction on whether it is genuine or counterfeit. The app also provides some basic data visualization, such as a correlation heatmap and pairplot, to help understand the dataset better.
 
 ## Contributing
 
@@ -91,5 +77,4 @@ Contributions are welcome! Please fork this repository and submit pull requests.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
+This project is licensed under the MIT License - see the LICENSE file for details.
