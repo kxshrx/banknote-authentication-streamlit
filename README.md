@@ -70,11 +70,3 @@ The model is a logistic regression classifier trained using the scikit-learn lib
 ## Streamlit App
 
 The Streamlit application allows users to input the features of a banknote and get a prediction on whether it is genuine or counterfeit. The app also provides some basic data visualization, such as a correlation heatmap and pairplot, to help understand the dataset better.
-
-## Contributing
-
-Contributions are welcome! Please fork this repository and submit pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
